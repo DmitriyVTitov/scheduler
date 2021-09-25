@@ -79,7 +79,6 @@ func consume(s *scheduler) {
 			}
 		}
 		s.mux.Unlock()
-		time.Sleep(time.Millisecond * 1000)
 	}
 }
 
